@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Poppins', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --color-navy: #0f2159;
+  --color-navy-light: #16307c;
+  --color-gold: #f5a623;
+  --color-gold-light: #ffc94d;
+  --color-cream: #fdf9f2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
